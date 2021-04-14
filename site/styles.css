@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo{
+    position: relative;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.container{
+    position: absolute;
+}
+
+.tarjeta{
+    position: relative;
+    float: left;
+    width: 300px;
+    margin: 10px 20px;
+    padding: 5px;
+    border: 2.5px solid black;
+    background-color: #dfe6e9;
+}
+
+.etiqueta{
+    position: relative;
+    float: right;
+    border: 2.5px solid black;
+    padding: 2px 5px;
+}
+p{
+    padding-top: 40px ;
+    text-align: justify;
+}
+
+#e1{
+    background-color:#a29bfe;
+}
+
+#e2{
+    background-color: #ff7675;
+}
+
+#e3{
+    background-color: #55efc4;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+    .container{
+        justify-content: center;
+    }
+    #t3{
+        width: 800px;
+    }
+    .tarjeta{
+        width: 400px;
+        margin: 20px 30px;
+        padding: 5px;
+    }
+
+    
+
+}
